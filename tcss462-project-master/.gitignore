@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+**/history/**
+**/.vscode
+**/.ipynb_checkpoints
+**/*.zip
+**/.DS_Store
+**/.*.txt
+data.json
+ignore/

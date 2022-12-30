@@ -1,0 +1,17 @@
+{
+	"README": "See ./deploy/README.md for help!",
+
+	"functionName":     "imageProcessingTest",
+
+	"lambdaHandler": "index.handler",
+	"lambdaRoleARN": "arn:aws:iam::698338741675:role/service-role/imageProcessingTest-role-tu1y3ei1",
+	"lambdaSubnets": "",
+	"lambdaSecurityGroups": "",
+	"lambdaEnvironment": "Variables={EXAMPLEVAR1=VAL1,EXAMPLEVAR2=VAL2}",
+	"lambdaRuntime": "nodejs18.x",
+
+	"test": {
+		"key": "image.jpg",
+        "filter": "greyscale"
+	}
+}
